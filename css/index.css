@@ -154,7 +154,7 @@ nav{
 .bottomContent{
 	display:flex;
 	justify-content:space-between;
-	margin:1% 0 3%;
+	margin:3% 0;
 }
 
 .services, .product, .vision{
@@ -210,7 +210,7 @@ nav{
 
 	.bottomContent{
 		padding: 0 1.5%;
-	}
+	}	
 }
 
 @media(max-width:500px){
@@ -291,76 +291,79 @@ nav{
 	.contact{
 		padding:5% 0;
 	}
+
+	.servicesContainer{
+		width:95%;
+		margin:0 auto;
+	}
+
+	.contentBoxes{
+		flex-direction:column;
+		flex-wrap:nowrap;
+		width:100%;
+	}
+
+	div.contentBoxes section{
+		width:100%;
+	}
+
+	div.servicesBottomContent{
+		flex-direction:column;
+		width:100%;
+	}
+
+	section.facts{
+		width:100%;
+	}
+
+	.services-info-img{
+		display:none;
+	}
 }
-/*********** End of Index page ***********/
+/* Services Page */
 /* Some selectors shared */
 /* Start of Services page */
 .services-header-img{
 	width:100%;
-	margin-top:40px;
+	margin-top:2%;
 }
 
 section.top h1{
-	font-size:15px;
-	padding-top:15px;
+	font-size:1.5rem;
 }
 
 .top{
-	padding-bottom:15px;
+	padding:2% 0;
 }
 
-.firstRow{
+.contentBoxes{
 	display:flex;
+	flex-wrap:wrap;
 	justify-content:space-between;
 }
 
-.firstRow section{
-	width:47%;
+.contentBoxes section{
+	width:48%;
 	border:1px solid black;
 	background:lightgrey;
-	padding:10px;
-	margin-top:20px;
-}
-
-.secondRow{
-	display:flex;
-	justify-content:space-between;
-}
-
-.secondRow section{
-	width:47%;
-	border:1px solid black;
-	background:lightgrey;
-	padding:10px;
-	margin-top:20px;
-}
-
-.thirdRow{
-	display:flex;
-	justify-content:space-between;
-	margin-bottom:20px;
-}
-
-.thirdRow section{
-	width:47%;
-	border:1px solid black;
-	background:lightgrey;
-	padding:10px;
-	margin-top:20px;
-
+	padding:2%;
+	margin:2% 0;
 }
 
 button{
 	background:white;
-	margin:10px 0 5px;
-	padding:5px 20px;
-	font-size:8px;
+	border:1px solid black;
+	border-radius:5px;
+	width:30%;
+	margin:4% 0 1%;
+	padding:1%;
+	font-size:0.8rem;
 }
 
-.bottomContent{
+.servicesBottomContent{
 	display:flex;
 	justify-content:space-between;
-	padding-top:15px;
+	padding-top:2%;
 }
 
 .facts{
